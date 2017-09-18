@@ -14,6 +14,7 @@
 		8C495B631F1E9DD8002C1082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C495B611F1E9DD8002C1082 /* LaunchScreen.storyboard */; };
 		8CD567C41F5DFB56000CD475 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD567C31F5DFB56000CD475 /* Carro.swift */; };
 		8CD567C61F696851000CD475 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD567C51F696851000CD475 /* PlaySoundsViewController.swift */; };
+		8CD567C81F6BCF84000CD475 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD567C71F6BCF84000CD475 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C495B641F1E9DD8002C1082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD567C31F5DFB56000CD475 /* Carro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
 		8CD567C51F696851000CD475 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		8CD567C71F6BCF84000CD475 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8C495B571F1E9DD8002C1082 /* PitchPerfectThiago */ = {
 			isa = PBXGroup;
 			children = (
+				8CD567C71F6BCF84000CD475 /* playsoundsviewcontroller-audio.swift */,
 				8C495B581F1E9DD8002C1082 /* AppDelegate.swift */,
 				8C495B5A1F1E9DD8002C1082 /* RecordSoundsViewController.swift */,
 				8CD567C51F696851000CD475 /* PlaySoundsViewController.swift */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C495B5B1F1E9DD8002C1082 /* RecordSoundsViewController.swift in Sources */,
+				8CD567C81F6BCF84000CD475 /* playsoundsviewcontroller-audio.swift in Sources */,
 				8CD567C41F5DFB56000CD475 /* Carro.swift in Sources */,
 				8CD567C61F696851000CD475 /* PlaySoundsViewController.swift in Sources */,
 				8C495B591F1E9DD8002C1082 /* AppDelegate.swift in Sources */,
